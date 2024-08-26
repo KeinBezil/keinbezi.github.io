@@ -5,26 +5,36 @@ body {
     background-color: #f4f4f4;
     color: #1e1e1e;
 }
-
 header .presentacion{
     text-align: left;
     line-height: 0%;
 }
-
 hr {
     border: 0.2px solid black;
 }
-
-
 ul li {
     display: inline-block;
     width: 100%;
-}
-
-.quiensoy {
+}.quiensoy {
     text-align: left;
 }
-
 footer {
     line-height: 0%;
+}
+
+
+.galeria {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.fila {
+    display: flex;
+}
+
+.fila img {
+    width: 30%;
+    height: auto;
+    margin: 10px;
 }
