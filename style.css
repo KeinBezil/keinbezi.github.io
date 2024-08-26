@@ -2,12 +2,12 @@ body {
     width: 700px;
     margin: auto;
     font-family: 'Courier New', Courier, monospace;
-    background-color: #f0ead6;
+    background-color: #f4f4f4;
     color: #1e1e1e;
 }
 
-header {
-    text-align: center;
+header .presentacion{
+    text-align: left;
     line-height: 0%;
 }
 
@@ -16,6 +16,12 @@ hr {
 }
 
 
-.quiensoy {
-    text-align: center;
+ul li {
+    display: inline-block;
+    width: 100%;
 }
+
+.quiensoy {
+    text-align: left;
+}
+
