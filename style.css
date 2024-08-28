@@ -9,9 +9,7 @@ header .presentacion{
     text-align: left;
     line-height: 0%;
 }
-hr {
-    border: 0.2px solid black;
-}
+
 ul li {
     display: inline-block;
     width: 100%;
