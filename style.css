@@ -61,6 +61,7 @@ b{
 .conocimientos{
     display: flex;
     justify-content: center;
+    
 }
 
 .conocimientos div{
