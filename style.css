@@ -3,7 +3,7 @@ body {
     margin: auto;
     color: #333;
     background-color: #f4f4f4;
-    font-family: inter;
+    font-family: "Inter", sans-serif;
     border-left: 1px solid gray;
     border-right: 0.5px solid gray;
     padding: 40px;
@@ -30,5 +30,8 @@ ul{
 }
 
 strong{
+    color: #cd0978;
+}
+b{
     color: #cd0978;
 }
