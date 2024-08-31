@@ -15,7 +15,18 @@ header{
 
 h1{
     font-size: 50px;    
+    transition: 0.5s;
 }
+
+h1:hover{
+    transition: 0.5s;
+    color: #cd0978;
+    transform: translateX(10px);
+    cursor: pointer;
+}
+
+
+
 header ul{
     list-style: none;
     display: flex;
@@ -29,9 +40,43 @@ ul{
     list-style: none;
 }
 
+ul li{
+    transition: 0.2s;
+}
+
+li:hover{
+    transition: 0.2s;
+    color: #cd0978;
+    font-weight: 600;
+}
+
 strong{
     color: #cd0978;
 }
+
 b{
     color: #cd0978;
+}
+
+.conocimientos{
+    display: flex;
+    justify-content: center;
+}
+
+.conocimientos div{
+    margin: auto;
+}
+
+.galeria{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 5px;
+    margin-top: 5px;
+}
+
+.galeria img{
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
 }
