@@ -10,6 +10,8 @@ body {
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center;
+    background-size: 100%;
+    backdrop-filter: blur(20px);
 }
 header{
     line-height: 1px;
